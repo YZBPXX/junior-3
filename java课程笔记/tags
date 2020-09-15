@@ -1,0 +1,70 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddBook	./work/Class.java	/^	public void AddBook(){$/;"	m	class:Admin
+AddBook	./work/Class.java	/^	public void AddBook(Book b){$/;"	m	class:Library
+AddBook	./work/Class.java	/^	void AddBook();$/;"	m	interface:operat
+Admin	./work/Class.java	/^	Admin(String name, String cls, String sno){$/;"	m	class:Admin
+Admin	./work/Class.java	/^class Admin extends Student implements operat{$/;"	c
+Attack	./two/Flyable.java	/^interface Attack{$/;"	i
+Boat	./two/TestException.java	/^class Boat{$/;"	c
+Book	./work/Class.java	/^	Book(String name, String press){$/;"	m	class:Book
+Book	./work/Class.java	/^class Book{$/;"	c
+CheckIn	./work/Class.java	/^	public void CheckIn(){$/;"	m	class:Student
+Class	./work/Class.java	/^public class Class{$/;"	c
+DangerException	./two/TestException.java	/^class DangerException extends Exception{$/;"	c
+DelBook	./work/Class.java	/^	public void DelBook(){$/;"	m	class:Admin
+DelBook	./work/Class.java	/^	public void DelBook(int i){$/;"	m	class:Library
+DelBook	./work/Class.java	/^	void DelBook();$/;"	m	interface:operat
+Flyable	./two/Flyable.java	/^public interface Flyable{$/;"	i
+Library	./work/Class.java	/^class Library {$/;"	c
+MAX_PEED	./two/Flyable.java	/^	int MAX_PEED = 10000;$/;"	f	interface:Flyable
+Plane	./two/Flyable.java	/^class Plane implements Flyable,Attack{$/;"	c
+Rabbit	./thread/Rabbit.java	/^public class Rabbit extends Thread{$/;"	c
+RabbitApp	./thread/RabbitApp.java	/^public class RabbitApp{$/;"	c
+Son2	./two/Son2.java	/^public class Son2{$/;"	c
+Stone	./two/Flyable.java	/^class Stone implements Flyable{$/;"	c
+Student	./work/Class.java	/^	Student(){}$/;"	m	class:Student
+Student	./work/Class.java	/^	Student(String name, String cls, String sno){$/;"	m	class:Student
+Student	./work/Class.java	/^class Student{$/;"	c
+TestException	./two/TestException.java	/^public class TestException{$/;"	c
+Tortoise	./thread/Rabbit.java	/^class Tortoise extends Thread{$/;"	c
+WarnMess	./two/TestException.java	/^	public String WarnMess(){$/;"	m	class:DangerException
+attack	./two/Flyable.java	/^	public void attack(){$/;"	m	class:Plane
+attack	./two/Flyable.java	/^	void attack();$/;"	m	interface:Attack
+book	./work/Class.java	/^	Book [] book = new Book[100];$/;"	f	class:Library
+book	./work/Class.java	/^	Book [] book= new Book[100];$/;"	f	class:Student
+cls	./work/Class.java	/^	String cls;$/;"	f	class:Student
+date	./work/Class.java	/^	Date date;$/;"	f	class:Book
+fly	./two/Flyable.java	/^	public void fly(){$/;"	m	class:Plane
+fly	./two/Flyable.java	/^	public void fly(){$/;"	m	class:Stone
+fly	./two/Flyable.java	/^	void fly();$/;"	m	interface:Flyable
+len	./work/Class.java	/^	int len = 0;$/;"	f	class:Library
+len	./work/Class.java	/^	int len=0;$/;"	f	class:Student
+lib	./work/Class.java	/^	Library lib = new Library();$/;"	f	class:Admin
+loading	./two/TestException.java	/^	void loading (int m )throws DangerException{$/;"	m	class:Boat
+main	./thread/RabbitApp.java	/^	public static void main(String[] args){$/;"	m	class:RabbitApp
+main	./two/Son2.java	/^	public static void main(String[] args){$/;"	m	class:Son2
+main	./two/TestException.java	/^	public static void main(String[] args){$/;"	m	class:TestException
+main	./two/test2.java	/^	public static void main(String[] args){$/;"	m	class:test2
+main	./work/Class.java	/^	public static void main(String[] args){$/;"	m	class:Class
+max	./two/TestException.java	/^	int max; \/\/最大载重$/;"	f	class:Boat
+name	./work/Class.java	/^	String name;$/;"	f	class:Book
+name	./work/Class.java	/^	String name;$/;"	f	class:Student
+operat	./work/Class.java	/^interface operat{$/;"	i
+press	./work/Class.java	/^	String press;$/;"	f	class:Book
+real	./two/TestException.java	/^	int real;\/\/装载重量$/;"	f	class:Boat
+run	./thread/Rabbit.java	/^	public void run(){$/;"	m	class:Rabbit
+run	./thread/Rabbit.java	/^    public void run(){$/;"	m	class:Tortoise
+search	./work/Class.java	/^	void search(){$/;"	m	class:Library
+setMax	./two/TestException.java	/^	void setMax(int c){$/;"	m	class:Boat
+sno	./work/Class.java	/^	String sno;$/;"	f	class:Student
+test2	./two/test2.java	/^public class test2{$/;"	c
+thread	./thread/Rabbit.java	/^package thread;$/;"	p
+thread	./thread/RabbitApp.java	/^package thread;$/;"	p
+toString	./work/Class.java	/^	public String toString(){$/;"	m	class:Book
+two	./two/Flyable.java	/^package two;$/;"	p
+two	./two/TestException.java	/^package two;$/;"	p

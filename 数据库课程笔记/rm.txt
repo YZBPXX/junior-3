@@ -1,0 +1,5 @@
+create table student
+(Sno varchar primary key,
+Sname varchar(12) unique not null,
+Ssex varchar(2) default('男') enum('女', '男'),
+)
